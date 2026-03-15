@@ -7,7 +7,11 @@ from xmlguard._common import (
     EntitiesForbidden,
     ExternalEntitiesForbidden,
     NotSupportedError,
+    XMLGuardConfig,
     XMLGuardError,
+    get_default_config,
+    reset_default_config,
+    set_default_config,
 )
 
 __all__ = [
@@ -16,5 +20,9 @@ __all__ = [
     "EntitiesForbidden",
     "ExternalEntitiesForbidden",
     "NotSupportedError",
+    "XMLGuardConfig",
     "XMLGuardError",
+    "get_default_config",
+    "reset_default_config",
+    "set_default_config",
 ]
